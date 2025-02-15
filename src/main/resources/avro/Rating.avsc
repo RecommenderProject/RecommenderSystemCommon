@@ -1,0 +1,20 @@
+{
+  "type": "record",
+  //  where the file is located in the generated Java code
+  "namespace": "com.recommender.avro",
+  "name": "Rating",
+  "fields": [
+    {
+      "name": "userId",
+      "type": "long"
+    },
+    {
+      "name": "movieId",
+      "type": "long"
+    },
+    {
+      "name": "ratingValue",
+      "type": "double"
+    }
+  ]
+}
